@@ -18,6 +18,7 @@ public class AdminController {
 		AdminVO vo = new AdminVO();
 		vo.setAno(1);
 		vo.setTestId("testAdmin1");
+		vo.setTestName("git testing");
 		AdminVO admin = adminService.getAdmin(vo);
 		System.out.println(admin.toString());
 	}
